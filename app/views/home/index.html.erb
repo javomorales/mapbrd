@@ -1,0 +1,21 @@
+<div id="info"> </div> 
+<div id=""> 
+  <div id="map_canvas" ></div> 
+  <div class="outer"> 
+    <div id="onmap"> 
+      <h2>Mapbrd.me</h2> 
+      <h3>share your maps</h3> 
+      <ul id="steps"> 
+        <li><span>1</span>create new map</li> 
+        <li><span>2</span>share the url!</li> 
+      </ul> 
+      <div id="action"> 
+        <%= link_to 'new map',  "/maps/#{@uuid}", :class => "button", :id => "new_map" %>
+        <%= link_to 'new map',  "/maps/#{@uuid}", :style => "display:none", :id => "go_map" %>
+      </div> 
+    </div> 
+    <div id="header"> 
+      <p><a href="http://twitter.com/mapbrdme">@mapbrdme</a> · brought to you by <a href="http://twitter.com/javomorales">@jav0m0rales</a> &ndash; <a href="http://vizzuality.com">Vizzuality</a> · 2011</p> 
+    </div> 
+  </div>
+</div>
