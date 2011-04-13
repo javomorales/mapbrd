@@ -6,7 +6,7 @@ class HomeController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @posts }
+      format.xml  { render :xml => "xml" }
     end
   end
 

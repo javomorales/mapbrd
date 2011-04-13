@@ -15,6 +15,8 @@ gem 'cartodb-rb-client', :git => 'git@github.com:Vizzuality/cartodb-rb-client.gi
 
 gem 'ruby-debug19'
 
+gem "json"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

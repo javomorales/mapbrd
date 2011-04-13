@@ -1,0 +1,7 @@
+  <%= hidden_field_tag(:uuid, @uuid) %>
+  <script type="text/javascript"> var geojson_data=<%= @geojson_data.html_safe %>;</script>
+  <input name="saveButton" id="saveButton" type="button" value="Save map" onClick="saveMap()" /> 
+  <input name="createButton" id="createButton" type="button" value="Create polygon" onClick="createPolygon()" /> 
+
+
+<div id="map"></div>

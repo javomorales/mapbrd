@@ -1,8 +1,12 @@
 Mapbrd::Application.routes.draw do
 
   root :to => "home#index"
+
+  match "save" => "maps#save"  
+  match ":uuid" => "maps#show"
   
-  match "maps/:uuid" => "maps#new"
+
+#  match "/save" => "maps#save"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

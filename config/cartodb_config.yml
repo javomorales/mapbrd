@@ -21,3 +21,4 @@ development:
   oauth_key: '04a1lgD53SyMD6AH7Y8utBqX6pucvADrVyhGCAAD'
   oauth_secret: '55Pw5g637raU5Q47BguBKeury6EIKUQg7eCQRCGU'
   table_name: 'mapbrd'
+  google_api_key: 'ABQIAAAA0CKawhnQpsJmm-UNAx1vohS-VOHkKHzLdWcP8dM1nXw0KzBSAhTQ3f6TkmbP2_tf0kHDQCPu-fSYow'
